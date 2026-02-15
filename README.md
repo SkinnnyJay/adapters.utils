@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./assets/logo-banner.svg" alt="@simpill/adapters.utils" width="100%" />
-</p>
+<p style="margin: 0;"><img src="./assets/logo-banner.svg" alt="@simpill/adapters.utils" width="100%" style="display: block; max-width: 100%;" /></p>
 
 <p align="center">
   <strong>Adapter helpers, logger and cache adapter interfaces</strong>
