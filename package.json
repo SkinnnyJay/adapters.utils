@@ -83,5 +83,18 @@
   "bugs": {
     "url": "https://github.com/SkinnnyJay/adapters.utils/issues"
   },
-  "homepage": "https://github.com/SkinnnyJay/adapters.utils#readme"
+  "homepage": "https://github.com/SkinnnyJay/adapters.utils#readme",
+  "typesVersions": {
+    "*": {
+      "client": [
+        "./dist/client/index.d.ts"
+      ],
+      "server": [
+        "./dist/server/index.d.ts"
+      ],
+      "shared": [
+        "./dist/shared/index.d.ts"
+      ]
+    }
+  }
 }
