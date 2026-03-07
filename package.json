@@ -57,6 +57,7 @@
     "all": "./scripts/build-all.sh"
   },
   "keywords": [
+    "simpill",
     "typescript",
     "adapter",
     "logger-adapter",
