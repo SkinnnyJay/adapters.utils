@@ -1,36 +1,26 @@
-<p style="margin: 0;"><img src="./assets/logo-banner.svg" alt="@simpill/adapters.utils" width="100%" style="display: block; max-width: 100%;" /></p>
+## Install
 
 <p align="center">
-  <strong>Adapter helpers, logger and cache adapter interfaces</strong>
+  [![npm version](https://img.shields.io/npm/v/@simpill%2fadapters.utils.svg)](https://www.npmjs.com/package/@simpill/adapters.utils)
+  [![GitHub](https://img.shields.io/badge/GitHub-source-blue?logo=github)](https://github.com/SkinnnyJay/simpill-utils/tree/main/utils/@simpill-adapters.utils)
 </p>
 
-<p align="center">
-  Adapter helpers, logger and cache adapter interfaces.
-</p>
-
-**Features:** Type-safe · Node & Edge · Lightweight
-
-<p align="center">
-  <a href="#installation">Installation</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#features">Features</a> •
-  <a href="#api-reference">API Reference</a> •
-  <a href="#examples">Examples</a>
-</p>
-
----
-
-## Installation
-
+**npm**
 ```bash
 npm install @simpill/adapters.utils
 ```
 
+**GitHub** (from monorepo)
+```bash
+git clone https://github.com/SkinnnyJay/simpill-utils.git && cd simpill-utils/utils/@simpill-adapters.utils && npm install && npm run build
+```
+Then in your project: `npm install /path/to/simpill-utils/utils/@simpill-adapters.utils` or `npm link` from that directory.
+
 ---
 
-## Quick Start
+## Usage
 
-```typescript
+```ts
 import {
   createAdapter,
   memoryCacheAdapter,
@@ -101,20 +91,9 @@ npx ts-node examples/01-basic-usage.ts
 
 ---
 
-## Development
+## Contributing
 
-```bash
-npm install
-npm test
-npm run build
-npm run verify
-```
-
-## Documentation
-
-- **Examples:** [examples/](./examples/) — run with `npx ts-node examples/01-basic-usage.ts`.
-- **Monorepo:** [CONTRIBUTING](https://github.com/SkinnnyJay/simpill/blob/main/CONTRIBUTING.md) for creating and maintaining packages.
-- **README standard:** [Package README standard](https://github.com/SkinnnyJay/simpill/blob/main/docs/PACKAGE_README_STANDARD.md).
+- [CONTRIBUTING](../../CONTRIBUTING.md) — Monorepo package guide.
 
 ---
 

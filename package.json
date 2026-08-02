@@ -58,10 +58,12 @@
   "keywords": [
     "simpill",
     "typescript",
-    "adapter",
-    "logger-adapter",
-    "cache-adapter",
-    "interface"
+    "utilities",
+    "type-safe",
+    "cjs",
+    "tree-shakeable",
+    "adapters",
+    "nodejs"
   ],
   "author": "@SkinnnyJay",
   "license": "ISC",
